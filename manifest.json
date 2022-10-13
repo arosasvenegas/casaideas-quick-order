@@ -2,7 +2,7 @@
   "vendor": "itgloberspartnercl",
   "name": "quick-order",
   "version": "0.0.1",
-  "title": "quick order",
+  "title": "Compra rápida",
   "description": "input de compra rapida",
   "builders": {
     "react": "3.x",

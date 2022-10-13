@@ -19,7 +19,6 @@ const QuickOrder = () => {
     console.log("el resultado producto es", product, search);
     if (product) {
       let skuId = parseInt(inputText)
-      console.log("mis datos necesarios", skuId, product)
       addToCart({
         variables: {
           salesChannel: "1",
@@ -37,6 +36,7 @@ const QuickOrder = () => {
         })
     }
   }, [product, search])
+
 
   const addProductToCart = () => {
     getProductData({
@@ -57,7 +57,7 @@ const QuickOrder = () => {
   }
   return <div>
     <h2>Compra rapida de casa ideas</h2>
-    <form onSubmit={(searchProduct)}>
+    <form onSubmit={searchProduct}>
       <div>
         <label htmlFor='sku'> Ingresa el numero de SKU</label>
         <input id='sku' type='text' onChange={handleChange}></input>
