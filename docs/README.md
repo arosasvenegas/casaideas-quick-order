@@ -2,7 +2,7 @@
 
 Componente customizado de compra rápida(quick order), el cual realiza una busqueda del producto mediante el numero de SKU que este tiene, y permite al usuario agregar al carrito de compra, el producto deseado mediante un botón. 
 
-![Media Placeholder](https://user-images.githubusercontent.com/52087100/71204177-42ca4f80-227e-11ea-89e6-e92e65370c69.png) ~Agregar imagen de componente quick order ~
+![quickorder](https://user-images.githubusercontent.com/73150391/196797247-c336ae7c-dc0d-4eb7-8b72-4ed200d85c0d.PNG)
 
 ## Configuración 
 
@@ -54,7 +54,8 @@ Por ultimo, agregaremos las dependencias necesarias para el componente que estam
 {
   "dependencies": {
     "vtex.checkout-graphql": "0.x",
-    "vtex.search-graphql": "0.x"
+    "vtex.search-graphql": "0.x",
+    "vtex.css-handles": "0.x"
 }
 ```
 
